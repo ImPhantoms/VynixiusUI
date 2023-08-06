@@ -4166,6 +4166,6 @@ function Library:AddWindow(options)
 	return Window
 end
 
-ScreenGui.Parent = gethui()
+ScreenGui.Parent = CG
 
 return Library
